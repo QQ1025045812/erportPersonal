@@ -2,11 +2,216 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>转正述职报告</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <style type="text/css">
+    ul.nav-tabs{
+        width: 140px;
+        margin-top: 20px;
+        border-radius: 4px;
+        border: 1px solid #ddd;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
+    }
+    ul.nav-tabs li{
+        margin: 0;
+        border-top: 1px solid #ddd;
+    }
+    ul.nav-tabs li:first-child{
+        border-top: none;
+    }
+    ul.nav-tabs li a{
+        margin: 0;
+        padding: 8px 16px;
+        border-radius: 0;
+    }
+    ul.nav-tabs li.active a, ul.nav-tabs li.active a:hover{
+        color: #fff;
+        background: #0088cc;
+        border: 1px solid #0088cc;
+    }
+    ul.nav-tabs li:first-child a{
+        border-radius: 4px 4px 0 0;
+    }
+    ul.nav-tabs li:last-child a{
+        border-radius: 0 0 4px 4px;
+    }
+    ul.nav-tabs.affix{
+        top: 30px;
+    }
+</style>
 </head>
-<body>
-    <div class="container">123</div>
+<body data-spy="scroll" data-target="#myScrollspy">
+    <div class="container">
+	<div class="jumbotron">
+        <h2>汇报人：刘洋洋</h2>
+        <h4>汇报时间：2017年01月10日</h4>
+    </div>
+    <div class="row">
+        <div class="col-xs-3" id="myScrollspy">
+            <ul class="nav nav-tabs nav-stacked" data-spy="affix" data-offset-top="125">
+                <li class="active"><a href="#section-1">自我介绍</a></li>
+                <li><a href="#section-2">工作回顾</a></li>
+                <li><a href="#section-3">不足和改进</a></li>
+                <li><a href="#section-4">未来工作规划</a></li>
+                <li><a href="#section-5">建议/感谢</a></li>
+            </ul>
+        </div>
+        <div class="col-xs-9">
+            <div class="panel-heading">
+                <h2 class="panel-title" id="section-1">
+						<a data-toggle="collapse" data-parent="#accordion" 
+						  href="#collapseOne">
+						  一、自我介绍
+						</a>
+			    </h2>
+            </div>
+            <div id="collapseOne" class="panel-collapse collapse in">
+					  <div class="panel-body list-group">
+                            <a href="javascript:void(0);" class="list-group-item">姓名：刘洋洋</a>
+                            <a href="javascript:void(0);" class="list-group-item">籍贯：江西南昌</a>
+                            <a href="javascript:void(0);" class="list-group-item">毕业院校：景德镇陶瓷大学</a>
+                            <a href="javascript:void(0);" class="list-group-item">实习部门：研发部</a>
+                            <a href="javascript:void(0);" class="list-group-item">实习岗位：软件工程师</a>
+					  </div>
+			</div>
+            <hr>
+            <div class="panel-heading">
+                <h2 class="panel-title" id="section-2">
+						<a data-toggle="collapse" data-parent="#accordion" 
+						  href="#collapseTwo">
+						  二、工作回顾
+						</a>
+			    </h2>
+            </div>
+            <div id="collapseTwo" class="panel-collapse collapse in">
+					  <div class="panel-body">
+						<div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" 
+          href="#collapseTwoOne">
+          岗前培训
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwoOne" class="panel-collapse collapse in">
+      <div class="panel-body">
+      面试的那天勇哥向我介绍了公司产品近几年的发展，以及公司在未来的技术发展趋势。2016年10月8日，也就是我入职的第一天，容姐带我完成了入职前的人事培训，强哥详细向我详细阐述公司二代项目及即将推出的三代项目，在介绍完每一位同事后向我分配了电脑及相关账号密码以及给我提供了一些技术资料
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" 
+          href="#collapseTwoTwo">
+          角色转变
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwoTwo" class="panel-collapse collapse">
+      <div class="panel-body">
+         之前工作涉及PC页面、web页面编写代码及数据交互，没有采用CSS、js等库，代码结构都是原生编写，来到公司的第一天就开始熟悉AppCan平台及其相关业务。
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" 
+          href="#collapseTwoThree">
+          岗位认知
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwoThree" class="panel-collapse collapse">
+      <div class="panel-body">
+       一直记得勇哥面试那天说过的一句话：“技术部的对于技术要求更高”，我也一直把这句话记在心里，因为我没有后端基础，前端也只是刚入门的一个小白，所以我按照强哥给我发的资料慢慢渗透后端一些知识以及不断地强化前端，
+      </div>
+    </div>
+  </div>
+</div>
+<div class="panel-group" role="tablist">
+   
+  </div>
+					  </div>
+			</div> <div class="panel-heading">
+                <h2 class="panel-title" id="section-3">
+						<a data-toggle="collapse" data-parent="#accordion" 
+						  href="#collapseTree">
+						  三、不足和改进
+						</a>
+			    </h2>
+            </div>
+            <div id="collapseTree" class="panel-collapse collapse in">
+					  <div class="panel-body">
+						 <div class="panel panel-primary">
+<div class="panel-heading">
+<h3 class="panel-title" id="panel-title">Panel title<a class="anchorjs-link" href="#panel-title"><span class="anchorjs-icon"></span></a></h3>
+</div>
+<div class="panel-body">
+
+</div>
+</div>
+					  </div>
+			</div> <div class="panel-heading">
+                <h2 class="panel-title" id="section-4">
+						<a data-toggle="collapse" data-parent="#accordion" 
+						  href="#collapseFour">
+						  四、未来工作规划
+						</a>
+			    </h2>
+            </div>
+            <div id="collapseFour" class="panel-collapse collapse in">
+					  <div class="panel-body">
+						<div class="list-group">
+<a href="javascript:void(0);" class="list-group-item active">
+展望未来
+</a>
+<a href="javascript:void(0);" class="list-group-item">良好的工作态度</a>
+<a href="javascript:void(0);" class="list-group-item">加强专业知识的学习，后端技能提升</a>
+<a href="javascript:void(0);" class="list-group-item">每天必须计划时间总结问题</a>
+<a href="javascript:void(0);" class="list-group-item">在实践中增长业务技能</a>
+</div> 
+					  </div>
+			</div>
+             <hr>
+             <div class="panel-heading">
+                <h2 class="panel-title" id="section-5">
+						<a data-toggle="collapse" data-parent="#accordion" 
+						  href="#collapseFive">
+						 五、 建议和感谢
+						</a>
+			    </h2>
+            </div>
+            <div id="collapseFive" class="panel-collapse collapse in">
+					  <div class="panel-body">
+						<div class="panel-group" role="tablist">
+    <div class="panel panel-default">
+      <div class="panel-heading" role="tab" id="collapseListGroupHeading1">
+        <h4 class="panel-title" id="-collapsible-list-group-">
+          <a class="" data-toggle="collapse" href="#collapseListGroup1" aria-expanded="true" aria-controls="collapseListGroup1">
+            建议
+          </a>
+        <a class="anchorjs-link" href="#-collapsible-list-group-"><span class="anchorjs-icon"></span></a></h4>
+      </div>
+      <div id="collapseListGroup1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="collapseListGroupHeading1" aria-expanded="true">
+        <ul class="list-group">
+          <li class="list-group-item">1、变量命名、代码规范、组件封装等都能建立完整的文档规范</li>
+          <li class="list-group-item">2、定期分享技术，促进交流，使整体技能提高</li>
+          <li class="list-group-item">3、</li>
+        </ul>
+        <div class="panel-footer">Footer</div>
+      </div>
+    </div>
+  </div>
+					  </div>
+			</div>
+        </div>
+    </div>
+    </div>
 <script src="js/jquery.js"></script>
 <script src="bootstrap/js/bootstrap.js"></script>  
 </body>
